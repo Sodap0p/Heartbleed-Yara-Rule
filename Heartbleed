@@ -1,7 +1,7 @@
 rule Heartbleed {
     strings:
-        $heartbeat = { 18 03 02 00 03 }
+        $heartbleedz = { 18 03 02 00 03 }
         $payload = /(?:00|ff){16,}/
     condition:
-        $heartbeat and $payload
+        $heartbleedz and $payload
 }
