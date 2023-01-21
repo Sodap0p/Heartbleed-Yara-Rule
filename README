@@ -1,5 +1,5 @@
-Here is a sample Yara rule that could be used to detect the Heartbleed vulnerability on a Linux machine. This rule looks for the specific pattern of bytes that are sent in a Heartbleed attack, as well as a payload containing a large number of null or 0xff bytes, which is a sign of the vulnerability.
+Here is a sample Yara rule that could be used to detect the Heartbleed vulnerability on a Linux machine. This rule looks for the specific pattern of bytes that are sent in a Heartbleed attack, as well as a payload containing a large number of null or 0xff bytes, which is a sign of attempted exploitation.
 
-Please note that this is a basic rule and it may not be 100% effective in identifying all cases of the Heartbleed vulnerability, and also it's important to test the rule on a non-production system before using it in production.
+Please note that this is a basic rule and probably isnt 100% effective in identifying all cases of the Heartbleed vulnerability, and also it's important to test the rule on a non-production system before using it in production.
 
-You probably wont find it out in the wild, but this was fun for a throwback. 
+Throwback to 2014
